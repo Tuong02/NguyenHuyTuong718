@@ -15,5 +15,6 @@ namespace MVC.Data
         }
 
         public DbSet<MVC.Models.Student> Student { get; set; } = default!;
+        public DbSet<MVC.Models.Person> Person { get; set; } = default!;
     }
 }
